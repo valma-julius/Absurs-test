@@ -1,0 +1,270 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+header {
+  background-color: #131314;
+	position: fixed;
+  width: 100%;
+  height: 154px;
+  z-index: 9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.2s;
+}
+
+header.small {
+	height: 80px;
+}
+a.button-buy-now {
+	text-decoration: none;
+	color: white;
+  font-family: helvetica;
+  font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+}
+
+h3.from-who {
+	font-size: 30px;
+}
+
+.midle-shit h4{
+	font-family: helvetica;
+	font-weight: normal;
+	font-size: 18px;
+	color: #8d8d8d;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.grid-header {
+  display: inline-grid;
+	float: right;
+	grid-template: 1fr , repeat(3, 100px);
+  position: relative;
+	left: -75px;
+  height: 154px;
+}
+.grid-banner {
+	display: grid;
+	height: 926px;
+	width: 1920px;
+	grid-template: 926px / 800px 1120px;
+	padding-top: 154px;
+	align-items: center;
+	text-align: center;
+
+}
+
+img.the-logo {
+	height: 116px;
+	transition-duration: 0.2s;
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	left: 75px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img.the-logo > .small{
+	height: 54px;
+}
+
+
+.image-the-logo{
+	position: relative;
+	display: inline-block;
+	height: 154px;
+}
+
+.the-logo:hover {
+	height: 117px;
+	width: auto;
+	transition-duration: 0.2s;
+}
+
+
+
+.parent-cart{
+	display: inline-block;
+	position: relative;
+	grid-column: 1 / 2;
+	width: 100px;
+}
+
+.cart {
+  height: 40px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.parent-search{
+	display: inline-block;
+	position: relative;
+	grid-column: 2 / 3;
+	width: 100px;
+}
+
+.search {
+  height: 28px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.parent-nav {
+	display: inline-block;
+	position: relative;
+	grid-column: 3 / 4;
+	width: 100px;
+}
+
+.nav {
+  height: 16px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.img1 {
+  position: relative;
+  margin: 100px, 100px;
+}
+
+.grid-prod {
+  display: grid;
+  grid-template: 1fr / repeat(2, 1fr);
+  grid-gap: -60px;
+	justify-items: center;
+	justify-self: baseline;
+	margin-bottom: 100px;
+	background-color: white;
+}
+
+.grid-prod h2 {
+  font-family: helvetica;
+	font-weight: bold;
+  color: #131314;
+  margin-top: 30px;
+	font-size: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+
+}
+
+.grid-prod h3 {
+  font-family: helvetica;
+	font-weight: lighter;
+  color: gray;
+  margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.grid-prod h4 {
+  font-family: helvetica;
+	font-weight: 200;
+  color: #131314;
+  margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.sleeve-im {
+  grid-column: 1/2;
+  margin-top: 200px;
+  transition: 0.5s ease;
+}
+
+.sleeve-im:hover  {
+  transform: scale(1.5);
+  transition: 0.5s ease;
+}
+
+.prod-info {
+  grid-column: 2/3;
+  margin-top: 300px;
+  margin-left: -200px;
+  width: 500px;
+}
+
+a {
+  font-family: helvetica;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+	background-color: #131314;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  padding: 5px 23px 5px 23px;
+	transition-duration: 0.2s;
+}
+
+a .button {
+  margin-top: 110px;
+}
+
+.size {
+  font-family: helvetica;
+  font-weight: lighter;
+  color: gray;
+  text-decoration: none;
+  margin-bottom: 20px;
+}

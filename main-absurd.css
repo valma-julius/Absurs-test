@@ -1,0 +1,400 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #131314;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+h2 {
+  font-family: helvetica;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+
+h3 {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: left;
+}
+
+a {
+}
+
+body {
+	width: 1920px;
+}
+h4{
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  z-index: 10;
+
+}
+header {
+  background-color: #131314;
+	position: fixed;
+  width: 100%;
+  height: 154px;
+  z-index: 9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.2s;
+}
+
+header.small {
+	height: 80px;
+}
+
+ul {
+
+}
+
+li{
+  float: left;
+}
+
+h3.from-who {
+	position: relative;
+	up: 50%;
+	left: 50%;
+	transform: translate(-50%;-50%);
+
+}
+
+a.button-buy-now {
+	text-decoration: none;
+	color: white;
+  font-family: helvetica;
+  font-weight: bold;
+	font-size: 25px;
+	position: relative;
+	top: 7px;
+	left: 7px;
+}
+
+h3.from-who {
+	font-size: 30px;
+}
+
+.midle-shit h4{
+	font-family: helvetica;
+	font-weight: normal;
+	font-size: 18px;
+	color: #8d8d8d;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.grid-header {
+  display: inline-grid;
+	float: right;
+	grid-template: 1fr , repeat(3, 100px);
+  position: relative;
+	left: -75px;
+  height: 154px;
+}
+.grid-banner {
+	display: grid;
+	height: 926px;
+	width: 1920px;
+	grid-template: 926px / 800px 1120px;
+	padding-top: 154px;
+	align-items: center;
+	text-align: center;
+
+}
+
+img.the-logo {
+	height: 116px;
+	transition-duration: 0.2s;
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	left: 75px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img.the-logo > .small{
+	height: 54px;
+}
+
+
+.image-the-logo{
+	position: relative;
+	display: inline-block;
+	height: 154px;
+}
+
+.the-logo:hover {
+	height: 117px;
+	width: auto;
+	transition-duration: 0.2s;
+}
+
+
+
+.parent-cart{
+	display: inline-block;
+	position: relative;
+	grid-column: 1 / 2;
+	width: 100px;
+}
+
+.cart {
+  height: 40px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.parent-search{
+	display: inline-block;
+	position: relative;
+	grid-column: 2 / 3;
+	width: 100px;
+}
+
+.search {
+  height: 28px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.parent-nav {
+	display: inline-block;
+	position: relative;
+	grid-column: 3 / 4;
+	width: 100px;
+}
+
+.nav {
+  height: 16px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.new-colection {
+  background-color: #e9e9e9;
+	display: inline-grid;
+	grid-template: 1fr 1fr 1fr / 1fr;
+	align-items: center;
+	text-align: center;
+	width: 800px;
+	height: 1200px;
+}
+
+.button-buy-now {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+
+}
+
+.third-one {
+	grid-row: 3 / 4;
+	width: 150px;
+	height: 40px;
+	background-color: black;
+	position: relative;
+	left: 185px;
+	bottom: 200px;
+	text-align: left;
+	transition-duration: 0.5s;
+
+
+}
+
+.third-one:hover {
+	width: 180px;
+	transition-duration: 0.5s;
+	background-color: hsla(0, 0%, 21%, 1);
+}
+
+.new-col {
+	grid-row: 1 / 2;
+	position: relative;
+	top: 200px;
+}
+
+.from-who {
+	grid-row: 2 / 3;
+	position: relative;
+	left: 185px;
+}
+
+.picture-right {
+	grid-column: 2 / 3;
+	display: grid;
+	grid-template: 1fr / 1fr 1fr;
+	align-items: center;
+	text-align: center;
+  background-image: url("sweatshirt.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 1120px;
+	height: 100%;
+	position: relative;
+}
+
+.men-n {
+	grid-column: 1 / 2;
+	transition-duration: 0.2s;
+	height: 100%;
+	position: relative;
+}
+
+a.men {
+	position: relative;
+	top: 50%;
+	transform: translate(-50%, 0);
+	color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 45px;
+}
+
+.men-n:hover {
+	font-size: 47px;
+	transition-duration: 0.5s;
+	background-color: hsla(0, 0%, 21%, 0.5);
+}
+.women-n {
+	grid-column: 2 / 3;
+	transition-duration: 0.2s;
+	height: 100%;
+	position: relative;
+}
+
+a.women {
+	position: relative;
+	top: 50%;
+	transform: translate(-50%, 0);
+	color: white;
+	font-family: helvetica;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 45px;
+}
+
+.women-n:hover {
+	font-size: 47px;
+	transition-duration: 0.5s;
+	background-color: hsla(0, 0%, 21%, 0.5);
+}
+
+.midle-shit {
+	display: block;
+	background-color: #131314;
+	height: 154px;
+	position: relative;
+}
+
+.list-grid {
+	display: grid;
+	margin-top: 75px;
+	grid-template: 1fr / repeat(4, 1fr);
+	grid-gap: -60px;
+	justify-items: center;
+	justify-self: baseline;
+	margin-bottom: 100px;
+	background-color: white;
+}
+
+.list-grid h5 {
+	font-family: helvetica;
+	font-weight: 300;
+	color: #131314;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 14px;
+
+}
+
+.list-grid a {
+	font-family: helvetica;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+	background-color: #131314;
+  transition-duration: 0.2s;
+}
+
+b{
+	font-weight: 600px;
+}
+
+.list-grid a:hover {
+	padding: 5px 23px 5px 23px;
+	transition-duration: 0.2s;
+}
+
+.f-pic {
+	grid-column: 1 / 2;
+}
+
+.s-pic {
+	grid-column: 2 / 3;
+}
+
+.t-pic {
+	grid-column: 3 / 4;
+}
+
+.fo-pic {
+	grid-column: 4 / 5;
+}
